@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This function returns a list of available
+"""This function returns list of available
     attributes & methods of an object
 """
 

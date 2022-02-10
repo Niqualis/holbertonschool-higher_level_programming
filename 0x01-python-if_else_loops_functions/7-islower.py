@@ -1,6 +1,14 @@
 #!/usr/bin/python3
-def islower(c):
-    if ord(c) >= 97 and ord(c) <= 122:
-        return True
-    else:
-        return False
+def fizzbuzz():
+    for i in range(1, 101):
+        if i % 15 == 0:
+            print("FizzBuzz", end=" ")
+
+        elif i % 3 == 0:
+            print("Fizz", end=" ")
+
+        elif i % 5 == 0:
+            print("Buzz", end=" ")
+
+        else:
+            print(i, end=" ")
